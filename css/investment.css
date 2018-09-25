@@ -1,0 +1,414 @@
+@charset "UTF-8";
+.details {
+  box-sizing: border-box;
+  height: 2647px;
+  background-color: #f3f3f3;
+  padding: 60px 0 98px 0;
+}
+.details .consumerLoan {
+  height: 544px;
+  background: #fff;
+  margin-bottom: 32px;
+  box-shadow: 0px 0px 2px 2px #e8e8e8;
+  border-radius: 3px;
+}
+.details .consumerLoan .code {
+  box-sizing: border-box;
+  height: 68px;
+  border-bottom: 1px solid #f2f2f2;
+  padding: 24px 0px 0px 28px;
+}
+.details .consumerLoan .code h4 {
+  font-size: 20px;
+  color: #656565;
+}
+.details .consumerLoan .detailsList {
+  display: flex;
+  justify-content: space-between;
+}
+.details .consumerLoan .detailsList .left {
+  width: 730px;
+  height: 475px;
+}
+.details .consumerLoan .detailsList .left .data {
+  box-sizing: border-box;
+  height: 225px;
+  background: #ffffff;
+  border-bottom: 1px solid #f3f3f3;
+  padding: 78px 108px 52px 110px;
+}
+.details .consumerLoan .detailsList .left .data .one,
+.details .consumerLoan .detailsList .left .data .two,
+.details .consumerLoan .detailsList .left .data .three {
+  box-sizing: border-box;
+  text-align: center;
+  display: inline-block;
+  width: 165px;
+  height: 95px;
+  background: #fff;
+  border-right: 1px dashed #f3f3f3;
+  padding-top: 24px;
+}
+.details .consumerLoan .detailsList .left .data .one:nth-child(3),
+.details .consumerLoan .detailsList .left .data .two:nth-child(3),
+.details .consumerLoan .detailsList .left .data .three:nth-child(3) {
+  border: 0;
+}
+.details .consumerLoan .detailsList .left .data .one p,
+.details .consumerLoan .detailsList .left .data .two p,
+.details .consumerLoan .detailsList .left .data .three p {
+  font-size: 14px;
+  color: #666;
+  margin-top: 24px;
+}
+.details .consumerLoan .detailsList .left .data .one h3 {
+  font-weight: bold;
+  font-size: 28px;
+  color: #fa8c3d;
+}
+.details .consumerLoan .detailsList .left .data .one h3 span {
+  font-size: 20px;
+  color: #fa8c3d;
+}
+.details .consumerLoan .detailsList .left .data .two h3 {
+  font-weight: bold;
+  font-size: 28px;
+  color: #000;
+}
+.details .consumerLoan .detailsList .left .data .two h3 span {
+  font-weight: 500;
+  font-size: 20px;
+  color: #606060;
+}
+.details .consumerLoan .detailsList .left .data .three {
+  font-size: 18px;
+  color: #999;
+}
+.details .consumerLoan .detailsList .left .schedule {
+  box-sizing: border-box;
+  padding: 22px 0 0 90px;
+}
+.details .consumerLoan .detailsList .left .schedule .box {
+  height: 100px;
+  width: 620px;
+}
+.details .consumerLoan .detailsList .left .schedule .box div {
+  display: inline-block;
+  font-size: 16px;
+  color: #000;
+  line-height: 36px;
+  width: 307px;
+}
+.details .consumerLoan .detailsList .right {
+  box-sizing: border-box;
+  height: 475px;
+  width: 370px;
+  background: #fefff8;
+  padding: 100px 34px 0 34px;
+}
+.details .consumerLoan .detailsList .right .content {
+  height: 205px;
+  width: 305px;
+}
+.details .consumerLoan .detailsList .right .content .balance {
+  font-size: 14px;
+  color: #9a9b96;
+  margin-bottom: 24px;
+  width: 305px;
+  height: 26px;
+}
+.details .consumerLoan .detailsList .right .content .balance p .number {
+  font-size: 26px;
+  color: #f77c07;
+}
+.details .consumerLoan .detailsList .right .content .balance p .company {
+  color: #f77c07;
+}
+.details .consumerLoan .detailsList .right .content .balance a {
+  color: #42b5e5;
+}
+.details .consumerLoan .detailsList .right .content .profit {
+  font-size: 14px;
+  color: #9a9b96;
+  margin-bottom: 38px;
+  width: 305px;
+  height: 14px;
+}
+.details .consumerLoan .detailsList .right .content .profit a {
+  color: #42b5e5;
+}
+.details .consumerLoan .detailsList .right .content .recharge {
+  margin-bottom: 15px;
+  height: 70px;
+}
+.details .consumerLoan .detailsList .right .content .recharge .recharge-box {
+  position: relative;
+}
+.details .consumerLoan .detailsList .right .content .recharge .recharge-box input {
+  width: 292px;
+  height: 26px;
+  margin-bottom: 15px;
+  padding-left: 10px;
+}
+.details .consumerLoan .detailsList .right .content .recharge .recharge-box input::-webkit-input-placeholder {
+  padding-left: 15px;
+}
+.details .consumerLoan .detailsList .right .content .recharge .recharge-box a {
+  position: absolute;
+  right: 10px;
+  bottom: 22px;
+  color: #f77c07;
+}
+.details .consumerLoan .detailsList .right .content .recharge button {
+  width: 306px;
+  height: 28px;
+  background-color: #f77c07;
+  color: #fff;
+  border: 0 none;
+  cursor: pointer;
+  margin-bottom: 18px;
+}
+.details .consumerLoan .detailsList .right .content .tips {
+  font-size: 14px;
+  color: #9a9b96;
+}
+.details .consumerLoan .detailsList .right .content .tips a {
+  color: #42b5e5;
+}
+.details .information {
+  height: 1908px;
+  background-color: #fff;
+  box-shadow: 0px 0px 2px 2px #e8e8e8;
+}
+.details .information .top {
+  height: 68px;
+  box-sizing: border-box;
+  padding: 28px 0 0 118px;
+  border-bottom: 1px solid #f3f3f3;
+}
+.details .information .top ul li {
+  float: left;
+  margin-right: 78px;
+  height: 40px;
+}
+.details .information .top ul li:hover {
+  box-shadow: 0px -3px 0px 0px #fa8c3d inset;
+}
+.details .information .top ul li img {
+  padding-right: 5px;
+}
+.details .information .top ul li .active {
+  box-shadow: 0px -3px 0px 0px #fa8c3d inset;
+  color: #fa8c3d;
+  font-weight: 700;
+}
+.details .information .top ul li a {
+  display: inline-block;
+  color: #656565;
+  height: 40px;
+}
+.details .information .top ul li:hover {
+  font-weight: 700;
+}
+.details .information .top ul li:hover a {
+  color: #fa8c3d;
+}
+.details .information .tablea .projectDtails {
+  width: 1024px;
+  height: 730px;
+  margin-top: 35px;
+  margin-left: 120px;
+}
+.details .information .tablea .projectDtails h5 {
+  color: #000;
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 28px;
+}
+.details .information .tablea .projectDtails p {
+  color: #656565;
+  margin-bottom: 49px;
+  line-height: 25px;
+}
+.details .information .tablea .projectDtails .form {
+  margin-bottom: 58px;
+}
+.details .information .tablea .projectDtails .form table {
+  border-collapse: collapse;
+}
+.details .information .tablea .projectDtails .form table th {
+  padding: 25px 170px 25px 275px;
+  font-size: 16px;
+  border-right: none;
+  border-left: none;
+}
+.details .information .tablea .projectDtails .form table td {
+  font-size: 14px;
+  padding: 6px 175px 6px 275px;
+  border-right: none;
+  border-left: none;
+}
+.details .information .tablea .projectDtails .form table,
+.details .information .tablea .projectDtails .form td,
+.details .information .tablea .projectDtails .form th {
+  border: 1px solid black;
+}
+.details .information .tablea .generalInformation {
+  display: none;
+}
+.details .information .tablea .generalInformation .borrowingInformation {
+  box-sizing: border-box;
+  height: 315px;
+  border-bottom: 1px solid #f3f3f3;
+  padding: 42px 0 0 95px;
+}
+.details .information .tablea .generalInformation .borrowingInformation h5 {
+  font-family: "思源黑体 CN Bold";
+  font-size: 16px;
+  color: #fa8c3d;
+}
+.details .information .tablea .generalInformation .borrowingInformation div {
+  font-family: "思源黑体 CN Normal";
+  box-sizing: border-box;
+  padding-left: 25px;
+  width: 520px;
+  font-size: 14px;
+  color: #656565;
+  display: inline-block;
+  margin-top: 26px;
+  line-height: 14px;
+}
+.details .information .tablea .generalInformation .borrowerInformation {
+  box-sizing: border-box;
+  height: 350px;
+  border-bottom: 1px solid #f3f3f3;
+  padding: 42px 0 0 95px;
+}
+.details .information .tablea .generalInformation .borrowerInformation h5 {
+  font-family: "思源黑体 CN Bold";
+  font-size: 16px;
+  color: #fa8c3d;
+}
+.details .information .tablea .generalInformation .borrowerInformation div {
+  font-family: "思源黑体 CN Normal";
+  box-sizing: border-box;
+  padding-left: 25px;
+  width: 520px;
+  font-size: 14px;
+  color: #656565;
+  display: inline-block;
+  margin-top: 26px;
+  line-height: 14px;
+}
+.details .information .tablea .generalInformation .workInformation {
+  box-sizing: border-box;
+  height: 191px;
+  border-bottom: 1px solid #f3f3f3;
+  padding: 42px 0 0 95px;
+}
+.details .information .tablea .generalInformation .workInformation h5 {
+  font-family: "思源黑体 CN Bold";
+  font-size: 16px;
+  color: #fa8c3d;
+}
+.details .information .tablea .generalInformation .workInformation div {
+  font-family: "思源黑体 CN Normal";
+  box-sizing: border-box;
+  padding-left: 25px;
+  width: 520px;
+  font-size: 14px;
+  color: #656565;
+  display: inline-block;
+  margin-top: 26px;
+  line-height: 14px;
+}
+.details .information .tablea .generalInformation .assetInformation {
+  box-sizing: border-box;
+  height: 150px;
+  border-bottom: 1px solid #f3f3f3;
+  padding: 42px 0 0 95px;
+}
+.details .information .tablea .generalInformation .assetInformation h5 {
+  font-family: "思源黑体 CN Bold";
+  font-size: 16px;
+  color: #fa8c3d;
+}
+.details .information .tablea .generalInformation .assetInformation div {
+  font-family: "思源黑体 CN Normal";
+  box-sizing: border-box;
+  padding-left: 25px;
+  width: 520px;
+  font-size: 14px;
+  color: #656565;
+  display: inline-block;
+  margin-top: 26px;
+  line-height: 14px;
+}
+.details .information .tablea .generalInformation .qualifications {
+  box-sizing: border-box;
+  height: 450px;
+  border-bottom: 1px solid #f3f3f3;
+  padding: 42px 0 0 95px;
+}
+.details .information .tablea .generalInformation .qualifications h5 {
+  font-family: "思源黑体 CN Bold";
+  font-size: 16px;
+  color: #fa8c3d;
+}
+.details .information .tablea .generalInformation .qualifications .form {
+  margin-top: 26px;
+  padding-left: 25px;
+}
+.details .information .tablea .generalInformation .qualifications .form table {
+  border-collapse: collapse;
+}
+.details .information .tablea .generalInformation .qualifications .form table th {
+  padding: 25px 180px 25px 275px;
+  font-size: 16px;
+  border-right: none;
+  border-left: none;
+}
+.details .information .tablea .generalInformation .qualifications .form table td {
+  font-size: 14px;
+  padding: 6px 180px 6px 275px;
+  border-right: none;
+  border-left: none;
+}
+.details .information .tablea .generalInformation .qualifications .form table,
+.details .information .tablea .generalInformation .qualifications .form td,
+.details .information .tablea .generalInformation .qualifications .form th {
+  border: 1px solid black;
+}
+.details .information .tablea .generalInformation .creditInformation {
+  box-sizing: border-box;
+  height: 385px;
+  padding: 42px 0 0 95px;
+}
+.details .information .tablea .generalInformation .creditInformation h5 {
+  font-family: "思源黑体 CN Bold";
+  font-size: 16px;
+  color: #fa8c3d;
+}
+.details .information .tablea .generalInformation .creditInformation div {
+  font-family: "思源黑体 CN Normal";
+  box-sizing: border-box;
+  padding-left: 25px;
+  width: 520px;
+  font-size: 14px;
+  color: #656565;
+  display: inline-block;
+  margin-top: 26px;
+  line-height: 14px;
+}
+.details .information .tablea .tenderRecord {
+  display: none;
+  height: 200px;
+  width: 170px;
+  margin: 150px auto;
+}
+.details .information .tablea .tenderRecord img {
+  height: 190px;
+  width: 160px;
+}
+
+/*# sourceMappingURL=investment.css.map */

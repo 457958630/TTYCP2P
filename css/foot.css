@@ -1,0 +1,81 @@
+.foot {
+  background: #141412;
+}
+.foot .foot-guide {
+  box-sizing: border-box;
+  height: 310px;
+  padding: 95px 75px 70px 15px;
+}
+.foot .foot-guide .user-guide {
+  height: 145px;
+  width: 420px;
+  border-right: 1px solid #2e2e2c;
+  display: inline-block;
+}
+.foot .foot-guide .user-guide ul {
+  float: left;
+  width: 140px;
+}
+.foot .foot-guide .user-guide ul .user-title {
+  font-size: 18px;
+  color: #d8d8d8;
+}
+.foot .foot-guide .user-guide ul li {
+  text-align: center;
+}
+.foot .foot-guide .user-guide ul li a {
+  color: #979797;
+  font-size: 12px;
+  line-height: 20px;
+}
+.foot .foot-guide .user-guide ul li a:hover {
+  color: #369;
+}
+.foot .foot-guide .user-guide ul li:nth-child(1) {
+  margin-bottom: 24px;
+}
+.foot .foot-guide .user-guide ul li img {
+  margin-right: 10px;
+}
+.foot .foot-guide .help-tel {
+  width: 270px;
+  float: right;
+  height: 145px;
+  border-left: 1px solid #2e2e2c;
+  box-sizing: border-box;
+  padding: 10px 0px 10px 40px;
+}
+.foot .foot-guide .help-tel .hotline {
+  font-size: 18px;
+  color: #d8d8d8;
+  margin-bottom: 28px;
+}
+.foot .foot-guide .help-tel .tel {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 36px;
+  color: #cdcdcd;
+  margin-bottom: 16px;
+}
+.foot .foot-guide .help-tel .time {
+  font-size: 14px;
+  color: #979797;
+  line-height: 26px;
+}
+.foot .foot-copyright {
+  height: 147px;
+  background: #272823;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.foot .foot-copyright .copyright {
+  width: 665px;
+  height: 60px;
+  text-align: center;
+}
+.foot .foot-copyright .copyright p {
+  color: #939496;
+  font-size: 12px;
+}
+
+/*# sourceMappingURL=foot.css.map */

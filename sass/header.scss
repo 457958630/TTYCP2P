@@ -1,0 +1,185 @@
+/*初始化代码*/
+
+body,
+div,
+span,
+p,
+img,
+input,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong,
+ul,
+li,
+ol,
+i,
+em,
+del,
+dl {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+img {
+    border: 0 none;
+    vertical-align: middle;
+}
+
+input {
+    outline: 0 none; // border: 0 none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+    font-weight: normal;
+}
+
+li {
+    list-style: none;
+}
+
+em,
+i {
+    font-style: normal;
+}
+
+body {
+    font: 16px/100% "微软雅黑";
+    background-color: #fff;
+    box-sizing: content-box;
+}
+
+// 版心
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+// 工具类名
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+#pl {
+    padding-left: 50px;
+}
+
+.fa {
+    background: #fafafa;
+}
+
+.ff {
+    background: #fff;
+}
+
+@font-face {
+    font-family: "思源黑体 CN Bold";
+    src: url("../fonts/SOURCEHANSANSCN-BOLD.OTF");
+}
+
+// 服务热线
+.serviceHotline {
+    height: 34px;
+    background-color: #f2f2f2;
+
+    .react {
+        height: 100%;
+        line-height: 34px;
+
+        .hotLine,
+        .join {
+            font-size: 12px;
+            color: #999;
+
+            a {
+                color: #999;
+            }
+        }
+    }
+}
+
+// 导航css代码
+.nav {
+    height: 100px;
+    display: flex;
+    line-height: 100px;
+    justify-content: space-between;
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            width: 140px;
+            height: 46px;
+        }
+    }
+
+    .list {
+        margin-left: 145px;
+        flex: 1;
+
+        li {
+            text-align: center;
+            float: left;
+            margin-right: 35px;
+            width: 90px;
+            height: 100%;
+
+            &:hover {
+                box-shadow: 0px -5px 0px 0px #f6232f inset;
+            }
+
+            a {
+                display: inline-block;
+                width: 100%;
+                height: 100%;
+                font-family: "思源黑体 CN Medium";
+                color: #151315;
+                font-size: 18px;
+
+                &:hover {
+                    font-weight: 700;
+                    color: #f6232f;
+                }
+            }
+        }
+    }
+
+    .login {
+        margin-right: 30px;
+    }
+
+    .login,
+    .register {
+        img {
+            margin-right: 10px;
+        }
+
+        a {
+            font-family: "思源黑体 CN Medium";
+            color: #ff7800;
+            font-size: 18px;
+        }
+    }
+}

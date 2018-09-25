@@ -1,0 +1,627 @@
+.top {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+
+    .left {
+        display: flex;
+
+        h2 {
+            font-family: "思源黑体 CN Bold";
+            padding-right: 10px;
+            font-size: 24px;
+            color: #151315;
+        }
+
+        .icon {
+            background: url("../img/标题ICON.png") no-repeat;
+            width: 149px;
+            height: 20px;
+
+            span {
+                font-size: 12px;
+                color: #fff;
+                padding-left: 32px;
+            }
+        }
+    }
+
+    .right {
+        a {
+            font-size: 14px;
+            color: #d0d0d0;
+        }
+    }
+}
+
+.middle {
+    font-size: 14px;
+    color: #999;
+    margin-bottom: 20px;
+}
+
+// 标题css代码
+.title {
+    height: 200px; // background-color: yellow;
+
+    .type {
+        display: flex;
+        align-items: center;
+        height: 135px;
+        border-bottom: 1px solid #ebebeb;
+
+        .bank,
+        .guarantee,
+        .data {
+            width: 400px;
+            height: 72px;
+            display: flex;
+
+            .list {
+                display: flex;
+
+                .left {
+                    img {
+                        width: 79px;
+                        height: 60px;
+                        padding: 0px 40px;
+                    }
+                }
+
+                .right {
+                    h4 {
+                        font-family: "思源黑体 CN Normal";
+                        font-size: 20px;
+                        color: #151315;
+                        margin-bottom: 16px;
+                    }
+
+                    p {
+                        font-family: "思源黑体 CN Normal";
+                        font-size: 14px;
+                        color: #666;
+                    }
+                }
+            }
+        }
+
+        .guarantee {
+            border-left: 1px solid #e6e6e6;
+            border-right: 1px solid #e6e6e6;
+        }
+    }
+
+    .optimization {
+        display: flex;
+        height: 64px;
+        align-items: center;
+        justify-content: space-between;
+
+        .left {
+            .notice {
+                font-size: 14px;
+                color: #151315;
+                padding: 0px 40px 0px 20px;
+            }
+
+            .time {
+                font-size: 14px;
+                color: #999;
+            }
+        }
+
+        .right {
+            a {
+                span {
+                    font-size: 14px;
+                    color: #d0d0d0;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}
+
+// 内容主体
+.main {
+    background: #f0f1f3;
+    padding: 40px 0px;
+
+    .function {
+        height: 380px;
+        background: #fff;
+        padding: 16px 30px 0px 30px;
+        box-sizing: border-box;
+        margin-bottom: 40px;
+        box-shadow: 0px 0px 2px 2px #e8e8e8;
+        border-radius: 3px;
+
+        .top {
+            display: flex;
+            justify-content: space-between;
+
+            a {
+                font-family: "思源黑体 CN Bold";
+                display: inline-block;
+                width: 370px;
+                height: 60px;
+                background-color: #eee;
+                text-align: center;
+                font-size: 20px;
+                color: #151315;
+                line-height: 60px;
+                
+                
+
+                &:hover {
+                    transition: all .5s;
+                    background: #fa423a;
+                    color: #fff;
+
+                }
+            }
+
+            .active {
+                background-color: #fa423a;
+                color: #fff;
+            }
+        }
+
+        .tablea {
+            // display: none;
+
+            //体验
+            .experience {
+                height: 303px;
+
+                .left {
+                    line-height: 303px;
+
+                    img {
+                        width: 524px;
+                        height: 190px;
+                    }
+                }
+
+                .right {
+                    padding: 65px 75px 0px 0px;
+
+                    .advert {
+                        width: 450px;
+                        height: 76px;
+                        border: 2px solid #171516;
+                        text-align: center;
+                        line-height: 76px;
+                        border-radius: 3px;
+
+                        span {
+                            font-family: "思源黑体 CN Bold";
+                            font-size: 36px;
+                            color: #171516;
+                        }
+                    }
+
+                    a {
+                        display: inline-block;
+                        width: 95px;
+                        height: 32px;
+                        border-radius: 5px;
+                        border: 2px solid #eb050f;
+                        text-align: center;
+                        line-height: 32px;
+                        margin: 59px 0px 0px 178px;
+
+                        &:hover {
+                            transition: all 0.5s;
+                            background-color: #eb050f;
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+
+            // 投资
+            .invest {
+                display: none;
+                table {
+                    width: 100%;
+                    margin-bottom: 10px;
+
+                    thead {
+                        tr {
+                            height: 58px;
+                        }
+                    }
+
+                    tbody {
+                        cursor: pointer;
+
+                        tr {
+                            height: 58px;
+
+                            td {
+                                text-align: center;
+
+                                &:nth-child(1) {
+                                    color: #fa7a01;
+                                }
+
+                                a {
+                                    color: #696969;
+                                }
+
+                                p {
+                                    color: #b1b1b1;
+                                    font-size: 14px;
+                                }
+
+                                span {
+                                    display: inline-block;
+                                    width: 45px;
+                                }
+
+                                img {
+                                    margin-left: 10px;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .investmentPage {
+                    color: #fa7a01;
+                    padding-left: 485px;
+                }
+            }
+
+            // 转让
+            .attorn {
+                display: none;
+                .left {
+                    margin-top: 80px;
+                    margin-left: 52px;
+
+                    img {
+                        width: 736px;
+                        height: 179px;
+                    }
+                }
+
+                .right {
+                    .advert {
+                        padding-top: 90px;
+
+                        span {
+                            font-family: "思源黑体 CN Bold";
+                            font-size: 42px;
+                            color: #000;
+                        }
+                    }
+
+                    a {
+                        display: inline-block;
+                        width: 95px;
+                        height: 32px;
+                        border-radius: 5px;
+                        border: 2px solid #eb050f;
+                        text-align: center;
+                        line-height: 32px;
+                        // margin: 42px 117px 154px 114px;
+                        margin: 42px 0px 0px 120px;
+
+                        &:hover {
+                            transition: all 0.5s;
+                            background-color: #eb050f;
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .menu {
+        box-sizing: border-box;
+        height: 1230px;
+        background-color: #fff;
+        margin-bottom: 40px;
+        padding: 40px 30px 0px 30px;
+        box-shadow: 0px 0px 2px 2px #e8e8e8;
+        border-radius: 3px;
+
+        .one {
+            height: 386px;
+            width: 1140px;
+            margin-bottom: 40px;
+
+            .top {
+                margin-bottom: 10px;
+                display: flex;
+                justify-content: space-between;
+
+                .left {
+                    display: flex;
+
+                    h2 {
+                        font-family: "思源黑体 CN Bold";
+                        padding-right: 10px;
+                        font-size: 24px;
+                        color: #151315;
+                    }
+
+                    .icon {
+                        background: url("../img/标题ICON.png") no-repeat;
+                        width: 149px;
+                        height: 20px;
+
+                        span {
+                            font-size: 12px;
+                            color: #fff;
+                            padding-left: 40px;
+                        }
+                    }
+                }
+
+                .right {
+                    a {
+                        font-size: 14px;
+                        color: #d0d0d0;
+                    }
+                }
+            }
+
+            .middle {
+                font-size: 14px;
+                color: #999;
+                margin-bottom: 20px;
+            }
+
+            .images {
+                ul {
+                    .one {
+                        background: url("../img/产品机型4.png") no-repeat;
+                    }
+
+                    .two {
+                        background: url("../img/产品机型2.png") no-repeat;
+                    }
+
+                    .three {
+                        background: url("../img/产品机型4.png") no-repeat;
+                    }
+
+                    .four {
+                        background: url("../img/产品机型2.png") no-repeat;
+                    }
+
+                    .five {
+                        background: url("../img/人物图片1.png") no-repeat;
+                    }
+
+                    .six {
+                        background: url("../img/人物图片2.png") no-repeat;
+                    }
+
+                    .seven {
+                        background: url("../img/人物图片3.png") no-repeat;
+                    }
+
+                    .eight {
+                        background: url("../img/人物图片4.png") no-repeat;
+                    }
+
+                    .remove {
+                        margin: 0;
+                    }
+
+                    li {
+                        cursor: pointer;
+                        margin-right: 20px;
+                        float: left;
+                        width: 270px;
+                        height: 320px;
+                        position: relative;
+
+                        &:hover {
+                            img {
+                                opacity: 1;
+                                animation: identifier 2s infinite;
+                            }
+
+                            @keyframes identifier {
+                                50% {
+                                    transform: translate(0px, 10px);
+                                }
+                            }
+                        }
+
+                        a {
+                            img {
+                                display: block;
+                                position: absolute;
+                                top: 58px;
+                                left: 39px;
+                                opacity: 0;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .images-mechanism {
+                ul {
+                    .nice {
+                        background: url("../img/机构1.png") no-repeat;
+                    }
+
+                    .ten {
+                        background: url("../img/机构2.png") no-repeat;
+                    }
+
+                    .eleven {
+                        background: url("../img/机构3.png") no-repeat;
+                    }
+
+                    .remove {
+                        margin: 0;
+                    }
+
+                    li {
+                        margin-right: 24px;
+                        float: left;
+                        width: 364px;
+                        height: 240px;
+                        position: relative;
+
+                        .name {
+                            font-family: "思源黑体 CN Bold";
+                            font-size: 36px;
+                            color: #fff;
+                            position: absolute;
+                            top: 95px;
+                            left: 110px;
+                        }
+
+                        .introduce {
+                            font-size: 14px;
+                            color: #fff;
+                            position: absolute;
+                            top: 145px;
+                            left: 155px;
+                        }
+
+                        a {
+                            display: block;
+                            width: 92px;
+                            height: 32px;
+                            text-align: center;
+                            line-height: 32px;
+                            background: #f82b32;
+                            color: #fff;
+                            font-size: 14px;
+                            border-radius: 2px;
+                            position: absolute;
+                            top: 170px;
+                            left: 135px;
+
+                            &:hover {
+                                transition: all 0.5s;
+                                background: #fff;
+                                color: #f82b32;
+                            }
+                        }
+                    }
+                }
+            }
+
+            &:nth-child(3) {
+                height: 306px;
+                width: 1140px;
+                margin: 0;
+            }
+        }
+    }
+
+    // 新闻
+    .journalism {
+        height: 640px;
+        background-color: #fff;
+        box-sizing: border-box;
+        padding: 40px 30px 0px 30px;
+        box-shadow: 0px 0px 2px 2px #e8e8e8;
+        border-radius: 3px;
+
+        .media {
+            .mediaCoverage {
+                height: 311px;
+                border-bottom: 1px solid #d4d4d4;
+
+                .bottom {
+                    img {
+                        float: left;
+                        margin-right: 55px;
+                    }
+
+                    .right {
+                        float: right;
+                        width: 770px;
+                        height: 205px;
+
+                        .journalism1 {
+                            line-height: 34px;
+                            width: 432px;
+
+                            span {
+                                font-size: 14px;
+                                color: #666;
+                            }
+
+                            a {
+                                display: inline-block;
+                                width: 328px;
+                                font-size: 14px;
+                                color: #666;
+
+                                &:hover {
+                                    color: #369;
+                                }
+                            }
+
+                            span {
+                                font-size: 14px;
+                                color: #666;
+                            }
+
+                        }
+
+                        .journalism2 {
+                            line-height: 34px;
+                            width: 260px;
+
+                            a {
+                                display: inline-block;
+                                width: 218px;
+                                font-size: 14px;
+                                color: #666;
+                                &:hover {
+                                    color: #369;
+                                }
+                            }
+
+                            span {
+                                font-size: 14px;
+                                color: #666;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .cooperativePartner {
+                margin-top: 40px;
+                height: 248px;
+
+                .partner {
+                    box-sizing: border-box;
+                    width: 980px;
+                    height: 122px;
+                    margin: 10px 85px 0px 75px;
+
+                    img {
+                        float: left;
+                        display: block;
+                        width: 130px;
+                        height: 56px;
+                        margin-right: 40px;
+                        margin-bottom: 10px;
+
+                        &:nth-child(6),
+                        &:nth-child(12) {
+                            margin: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

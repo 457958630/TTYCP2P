@@ -1,0 +1,169 @@
+@charset "UTF-8";
+/*初始化代码*/
+body,
+div,
+span,
+p,
+img,
+input,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong,
+ul,
+li,
+ol,
+i,
+em,
+del,
+dl {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+img {
+  border: 0 none;
+  vertical-align: middle;
+}
+
+input {
+  outline: 0 none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+  font-weight: normal;
+}
+
+li {
+  list-style: none;
+}
+
+em,
+i {
+  font-style: normal;
+}
+
+body {
+  font: 16px/100% "微软雅黑";
+  background-color: #fff;
+  box-sizing: content-box;
+}
+
+.w {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+#pl {
+  padding-left: 50px;
+}
+
+.fa {
+  background: #fafafa;
+}
+
+.ff {
+  background: #fff;
+}
+
+@font-face {
+  font-family: "思源黑体 CN Bold";
+  src: url("../fonts/SOURCEHANSANSCN-BOLD.OTF");
+}
+.serviceHotline {
+  height: 34px;
+  background-color: #f2f2f2;
+}
+.serviceHotline .react {
+  height: 100%;
+  line-height: 34px;
+}
+.serviceHotline .react .hotLine,
+.serviceHotline .react .join {
+  font-size: 12px;
+  color: #999;
+}
+.serviceHotline .react .hotLine a,
+.serviceHotline .react .join a {
+  color: #999;
+}
+
+.nav {
+  height: 100px;
+  display: flex;
+  line-height: 100px;
+  justify-content: space-between;
+}
+.nav .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav .logo img {
+  width: 140px;
+  height: 46px;
+}
+.nav .list {
+  margin-left: 145px;
+  flex: 1;
+}
+.nav .list li {
+  text-align: center;
+  float: left;
+  margin-right: 35px;
+  width: 90px;
+  height: 100%;
+}
+.nav .list li:hover {
+  box-shadow: 0px -5px 0px 0px #f6232f inset;
+}
+.nav .list li a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  font-family: "思源黑体 CN Medium";
+  color: #151315;
+  font-size: 18px;
+}
+.nav .list li a:hover {
+  font-weight: 700;
+  color: #f6232f;
+}
+.nav .login {
+  margin-right: 30px;
+}
+.nav .login img,
+.nav .register img {
+  margin-right: 10px;
+}
+.nav .login a,
+.nav .register a {
+  font-family: "思源黑体 CN Medium";
+  color: #ff7800;
+  font-size: 18px;
+}
+
+/*# sourceMappingURL=header.css.map */

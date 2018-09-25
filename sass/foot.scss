@@ -1,0 +1,95 @@
+// 底部
+.foot {
+    background: #141412;
+
+    .foot-guide {
+        box-sizing: border-box;
+        height: 310px;
+        padding: 95px 75px 70px 15px;
+
+        .user-guide {
+            height: 145px;
+            width: 420px;
+            border-right: 1px solid #2e2e2c;
+            display: inline-block;
+
+            ul {
+                float: left;
+                width: 140px;
+
+                .user-title {
+                    font-size: 18px;
+                    color: #d8d8d8;
+                }
+
+                li {
+                    text-align: center;
+                    a {
+                        color: #979797;
+                        font-size: 12px;
+                        line-height: 20px;
+
+                        &:hover {
+                            color: #369;
+                        }
+                    }
+
+                    &:nth-child(1) {
+                        margin-bottom: 24px;
+                    }
+
+                    img {
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+
+        .help-tel {
+            width: 270px;
+            float: right;
+            height: 145px;
+            border-left: 1px solid #2e2e2c;
+            box-sizing: border-box;
+            padding: 10px 0px 10px 40px;
+
+            .hotline {
+                font-size: 18px;
+                color: #d8d8d8;
+                margin-bottom: 28px;
+            }
+
+            .tel {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 36px;
+                color: #cdcdcd;
+                margin-bottom: 16px;
+            }
+
+            .time {
+                font-size: 14px;
+                color: #979797;
+                line-height: 26px;
+            }
+        }
+    }
+
+    .foot-copyright {
+        height: 147px;
+        background: #272823;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .copyright {
+            width: 665px;
+            height: 60px;
+            text-align: center;
+
+            p {
+                color: #939496;
+                font-size: 12px;
+            }
+        }
+    }
+}

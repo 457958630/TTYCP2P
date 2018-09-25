@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .content {
+            width: 300px;
+            height: 300px;
+            box-sizing: border-box;
+            padding: 5px;
+            border-radius: 50%;
+            background-image: -webkit-linear-gradient(left, green 0%, skyblue 40%, blue 90%);
+            display: inline-block;
+        }
+
+        .box {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            background: #fff;
+            
+        }
+        
+        img {
+            position: absolute;
+            left: 13px;
+            top: 13px;
+            display: inline-block;
+            width: 290px;
+            height: 290px;
+            border-radius: 50%;
+        }
+
+        .content {
+            -webkit-animation: change 5s linear infinite;
+        }
+
+        @keyframes change {
+
+            0% {
+                -webkit-transform: rotate(0deg);
+            }
+
+            25% {
+                -webkit-transform: rotate(90deg);
+            }
+
+            50% {
+                -webkit-transform: rotate(180deg);
+            }
+
+            75% {
+                -webkit-transform: rotate(270deg);
+            }
+
+            100% {
+                -webkit-transform: rotate(360deg);
+            }
+
+        }
+
+        .box2 {
+            background: url("./img/人物图片2.png") no-repeat;
+            -webkit-animation: change 5s linear infinite;
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content">
+        <div class="box">
+        </div>
+    </div>
+    <!-- <img src="./img/人物图片1.png" alt=""> -->
+
+
+    <div class="box2">
+        <img src="./img/产品详情点击.png" alt="">
+    </div>
+</body>
+
+</html>
